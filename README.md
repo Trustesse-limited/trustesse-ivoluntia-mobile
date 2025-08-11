@@ -33,7 +33,7 @@ trustesse-ivoluntia-mobile/
 ├── contexts/                      # Global React contexts
 ├── hooks/                         # Custom React hooks
 ├── services/                      # API service layer
-├── state/                         # Zustand/Redux store slices
+├── state/                         # Redux store slices
 ├── types/                         # TypeScript interfaces/types
 ├── utils/                         # Helper functions
 ├── i18n/                          # Translations and internationalization setup
