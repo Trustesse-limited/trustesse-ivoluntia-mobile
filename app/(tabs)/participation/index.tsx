@@ -1,10 +1,20 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { StyleSheet, Text, useColorScheme, View } from "react-native";
+import React, { useState } from "react";
+import Colors from "@/constants/Colors";
 
 const Participation = () => {
+  const theme = useColorScheme();
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Participation</Text>
+      <Text
+        style={[
+          styles.title,
+          { color: theme === "light" ? Colors.light.text : Colors.dark.text },
+        ]}
+      >
+        Participation
+      </Text>
     </View>
   );
 };
